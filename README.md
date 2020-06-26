@@ -1,6 +1,4 @@
-<center>
-    <br>
-	<h1 style="font-size:36px;font-weight:bold;">
+<h1 align="center" style="font-size:36px;font-weight:bold;">
         WHOISxss<br>
         <font size=2><strong>Powered by BINIT GHIMIRE (<a href='https://twitter.com/WHOISbinit'>@WHOISbinit</a>)</strong></font>
     </h1>
@@ -8,7 +6,7 @@
 	<h3>Real-time <strong>XSS</strong> Detection Suite!</h3><hr/>
     <font size=4>Find XSS in Real-time with WHOISxss!</font><br/>
     ~~~ ___***___~~~<br><br>
-</center>
+</h1>
 
 [![Made with Python](https://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 ## Requirements
