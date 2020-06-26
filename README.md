@@ -16,11 +16,14 @@
 ## Requirements
 1. **Python** (3.x)
 2. **PIP** for **Python3**
-3. **Required Modules:** **selenium**, **argparse**
+3. **GeckoDriver** [[Download Here](https://github.com/mozilla/geckodriver/releases)]
+4. **Required Modules:** **selenium**, **argparse**
     #### Install from **requirements.txt**
     > **`pip3 install -r requirements.txt`**
     #### Manual Installation
     > **`pip3 install selenium argparse`**
+
+**Mozilla Firefox** and **GeckoDriver** are required to be installed for using **WHOISxss** since everything is performed in real-time, just in front of you, and a version of **ChromeDriver** isn't available as of now.
 
 <hr>
 
