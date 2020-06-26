@@ -1,13 +1,13 @@
 <center>
-    <br><img src="https://i.ibb.co/8NDmdQq/d1htlaw-9514a68d-e15e-4b10-a852-4c03af151971.png"  style="width:64px;height:auto;"><img src="https://i.ibb.co/8PXWcFW/coin-icon-png-1.png" style="width:64px;height:auto;"><img src="https://i.ibb.co/8PXWcFW/coin-icon-png-1.png" style="width:64px;height:auto;">
+    <br>
 	<h1 style="font-size:36px;font-weight:bold;">
         WHOISxss<br>
-        <font size=2><img src="https://image.flaticon.com/icons/svg/1118/1118952.svg" style="width:16px;height:auto;">&nbsp;&nbsp;<strong>Powered by BINIT GHIMIRE (<a href='https://twitter.com/WHOISbinit'>@WHOISbinit</a>)</strong></font>
+        <font size=2><strong>Powered by BINIT GHIMIRE (<a href='https://twitter.com/WHOISbinit'>@WHOISbinit</a>)</strong></font>
     </h1>
 	<img src="src/screenshot.png">
 	<h3>Real-time <strong>XSS</strong> Detection Suite!</h3><hr/>
     <font size=4>Find XSS in Real-time with WHOISxss!</font><br/>
-    ~~~ ___***___~~~
+    ~~~ ___***___~~~<br><br>
 </center>
 
 [![Made with Python](https://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
