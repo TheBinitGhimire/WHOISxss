@@ -1,0 +1,2 @@
+WHOISxss Real-time XSS Vulnerable Endpoints:
+

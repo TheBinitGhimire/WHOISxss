@@ -1,0 +1,3 @@
+https://www.domain.net/search.php
+http://hello.com/index.php
+https://example.com/example.php
