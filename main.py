@@ -24,8 +24,7 @@ print("""\
         +++ ^^^ Powered by BINIT GHIMIRE (@WHOISbinit)! ~~~
     """)
 
-if(len(sys.argv)):
-    print("WHOISxss will only work if you either pass a URL with -u or insert a list of URLs in a text file and use -f to pass it.\n")
+print("WHOISxss will only work if you either pass a URL with -u or insert a list of URLs in a text file and use -f to pass it.\n")
 parser = argparse.ArgumentParser(description="Which domain do you want to try attacking on?")
 parser.add_argument("-u", help="Your Target URL")
 parser.add_argument("-f", help="File Name consisting of list of URLs, i.e. list.txt")
