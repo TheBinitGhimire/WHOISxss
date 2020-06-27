@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from selenium import webdriver
 from time import sleep
+from datetime import datetime
 import platform, sys, argparse
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
@@ -52,13 +53,17 @@ mouseEnter = ActionChains(whoisbrowser)
 targetInput = "//input[@type='text']"
 
 XSSed = 0
-
+count = 0
+now = datetime.now()
+start_time = datetime.timestamp(now)
 for target in range(len(targets)):
     confirmed = False
     for payload in range(len(payloads)):
+        total = len(payloads)
+        count+=1
         whoisbrowser.get(targets[target])
         sleep(1)
-        print("\nTrying in "+targets[target]+"\nUsing payload: "+payloads[payload])
+        print("\nTrying in "+targets[target]+"\nUsing payload ("+str(count)+"/"+str(total)+ "): "+payloads[payload]  )
         try:
             targetField = whoisbrowser.find_element_by_xpath(targetInput)
             targetField.send_keys(payloads[payload]+Keys.ENTER)
@@ -90,7 +95,9 @@ for target in range(len(targets)):
         if confirmed:
             XSSed += 1
             break
-if(XSSed==0): print("\nNo XSS Found!")
+now = datetime.now()
+end_time = datetime.timestamp(now)
+if(XSSed==0): print("\n Attack complete in " +str(round(((end_time-start_time)/60),2)) +" minutes"+"\n~~~~~~No XSS Found!~~~~~~")
 else: print("\n"+str(XSSed)+" XSS Found! Check xss.txt!")
 whoisbrowser.close()
 print("""\
