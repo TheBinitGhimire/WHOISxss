@@ -59,6 +59,26 @@ There are two ways to make use of WHOISxss;
 
 <hr>
 
+## Contributors
+<table>
+    <tr>
+        <td align="center">
+            <a href="https://github.com/TheBinitGhimire">
+                <img src="https://avatars0.githubusercontent.com/u/20013689" style="width:100px;"><br />
+                <strong>Binit Ghimire</strong><br>
+                <span>@WHOISbinit</span>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/cimplesid">
+                <img src="https://avatars0.githubusercontent.com/u/29953052" style="width:100px;"><br />
+                <strong>Siddhartha Joshi</strong><br>
+                <span>@cimplesid</span>
+            </a>
+        </td>
+    </tr>
+</table>
+
 ## Feature Requests
 <p align="center">
     <a href="https://github.com/TheBinitGhimire/WHOISxss/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
