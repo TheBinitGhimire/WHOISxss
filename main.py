@@ -2,7 +2,7 @@
 from selenium import webdriver
 from time import sleep
 from datetime import datetime
-import platform, sys, argparse
+import platform, sys, argparse, subprocess
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
@@ -21,8 +21,8 @@ print("""\
 ██║███╗██║██╔══██║██║   ██║██║╚════██║ ██╔██╗ ╚════██║╚════██║
 ╚███╔███╔╝██║  ██║╚██████╔╝██║███████║██╔╝ ██╗███████║███████║
  ╚══╝╚══╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝    
-~~~ Find XSS in real-time with WHOISxss!    ^^^ +++
-        +++ ^^^ Powered by BINIT GHIMIRE (@WHOISbinit)! ~~~
+~~~ \033[0;107m\033[1;91mFind XSS in real-time with WHOISxss!\033[0m\033[0m    ^^^ +++
+        +++ ^^^ Powered by \033[1;97mBINIT GHIMIRE (@WHOISbinit)\033[0m! ~~~
     """)
 
 print("WHOISxss will only work if you either pass a URL with -u or insert a list of URLs in a text file and use -f to pass it.\n")
@@ -39,10 +39,10 @@ elif args.u is not None and args.f is not None:
     exit()
 elif args.u is not None and args.f is None:
     targets = [args.u]
-    print("WHOISxss will crawl over "+targets[0]+".")
+    print("WHOISxss will crawl over \033[1;33m"+targets[0]+"\033[0m.")
 elif args.u is None and args.f is not None:
     targets = [domains.rstrip() for domains in open(args.f)]
-    print("WHOISxss is going to attack the websites listed in "+args.f+" file.")
+    print("WHOISxss is going to attack the websites listed in \033[1;33m"+args.f+"\033[0m file.")
 else:
     targets = [input("Enter a domain to try attacking: ")]
 
@@ -63,7 +63,7 @@ for target in range(len(targets)):
         count+=1
         whoisbrowser.get(targets[target])
         sleep(1)
-        print("\nTrying in "+targets[target]+"\nUsing payload ("+str(count)+"/"+str(total)+ "): "+payloads[payload]  )
+        print("\nTrying in "+targets[target]+"!\nUsing payload ("+str(count)+"/"+str(total)+ "): "+payloads[payload])
         try:
             targetField = whoisbrowser.find_element_by_xpath(targetInput)
             targetField.send_keys(payloads[payload]+Keys.ENTER)
@@ -83,7 +83,7 @@ for target in range(len(targets)):
                 alertBox.accept()
                 if(alertText=="31337"):
                     confirmed = True
-                    print("\nXSS Detected!\nURL: "+targets[target]+"\nPayload: "+payloads[payload]+"\n")
+                    print("\n\033[1;101m\033[1;96m| XSS Detected! |\033[0m\033[0m\n\033[1;93mURL:\033[0m \033[1m"+targets[target]+"\033[0m\n\033[1;93mPayload:\033[0m \033[1m"+payloads[payload]+"\033[0m\n")
                     output = open("xss.txt","a")
                     output.write("URL: "+targets[target]+"\nPayload: "+payloads[payload]+"\n\n")
                     output.close()
@@ -97,11 +97,16 @@ for target in range(len(targets)):
             break
 now = datetime.now()
 end_time = datetime.timestamp(now)
-if(XSSed==0): print("\n Attack complete in " +str(round(((end_time-start_time)/60),2)) +" minutes"+"\n~~~~~~No XSS Found!~~~~~~")
-else: print("\n"+str(XSSed)+" XSS Found! Check xss.txt!")
+print("\n\033[1;94mAttack Completed\033[0m in \033[1;97m" +str(round(((end_time-start_time)/60),2)) +" minutes\033[0m!")
+if(XSSed==0): ("~~~~~~ \033[1;94mNo XSS Found!\033[0m ~~~~~~")
+else:
+    if args.u is not None and args.f is None:
+        print("\n\033[1;101m\033[1;96m| XSS Found! |\033[0m\033[0m \033[1;104m| Check xss.txt! |\033[0m")
+    else:
+        print("\n\033[1;101m\033[1;96m| " + str(XSSed)+" XSS Found! |\033[0m\033[0m \033[1;104m| Check xss.txt! |\033[0m")
 whoisbrowser.close()
 print("""\
 
 ~~~ Thank You for using WHOISxss!
-                   ~ @WHOISbinit
+                   ~ \033[1;94m@WHOISbinit\033[0m
     """)
