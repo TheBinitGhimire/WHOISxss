@@ -2,7 +2,7 @@
         WHOISxss
 </h1>
 <h4 align="center">
-    <strong>Powered by BINIT GHIMIRE (<a href='https://twitter.com/WHOISbinit' target="_blank">@WHOISbinit</a>)</strong></font>
+    <strong>Powered by BINIT GHIMIRE (<a href='https://twitter.com/WHOISbinit' target="_blank">@WHOISbinit</a>)</strong>
 </h4>
 <p align="center">
     <img src="src/screenshot.png">
