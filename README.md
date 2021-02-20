@@ -66,7 +66,7 @@ There are two ways to make use of WHOISxss;
             <a href="https://github.com/TheBinitGhimire">
                 <img src="https://avatars0.githubusercontent.com/u/20013689" style="width:100px;"><br />
                 <strong>Binit Ghimire</strong><br>
-                <span>@WHOISbinit</span>
+                <span>@TheBinitGhimire</span>
             </a>
         </td>
         <td align="center">
