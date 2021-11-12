@@ -10,7 +10,7 @@
 <h3 align="center">Real-time <strong>XSS</strong> Detection Suite!</h3><hr/>
 <h2 align="center">Find XSS in Real-time with WHOISxss!</h2>
 <p align="center">
-    <a href="https://www.python.org/" target="_blank"><img src="https://ForTheBadge.com/images/badges/made-with-python.svg"></a>
+    <a href="https://www.python.org/" target="_blank"><img src="https://forthebadge.com/images/badges/made-with-python.svg"></a>
 </p>
 
 ## Requirements
